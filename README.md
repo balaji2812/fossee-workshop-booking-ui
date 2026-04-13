@@ -41,30 +41,21 @@ times and full design control.
 
 ## Before & After Screenshots
 
-### Home Page
-| Before | After |
-|--------|-------|
-| ![Before Home](assets/before-home.png) | ![After Home](assets/after-home.png) |
-
 ### Login Page
 | Before | After |
 |--------|-------|
-| ![Before Login](assets/before-login.png) | ![After Login](assets/after-login.png) |
+| ![Before Login](screenshots/login_before.png) | ![After Login](screenshots/login_after.png) |
 
-### Register Page
+### Account Creation Page
 | Before | After |
 |--------|-------|
-| ![Before Register](assets/before-register.png) | ![After Register](assets/after-register.png) |
+| ![Before Register](screenshots/account_creation_before.png) | ![After Register](screenshots/account_creation_after.png) |
 
-### Book a Workshop
-| Before | After |
-|--------|-------|
-| ![Before Book](assets/before-book.png) | ![After Book](assets/after-book.png) |
 
 ### Workshop List / Dashboard
 | Before | After |
 |--------|-------|
-| ![Before List](assets/before-list.png) | ![After List](assets/after-list.png) |
+| ![Before List](screenshots/workshop_list_before.png) | ![After List](screenshots/workshop_list_after.png) |
 
 ---
 
