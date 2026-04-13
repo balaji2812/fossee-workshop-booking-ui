@@ -59,6 +59,19 @@ times and full design control.
 
 ---
 
+## 📱 Mobile UI/UX Implementation
+
+The redesigned interface is built with a **Mobile-First** strategy to accommodate students who primarily access the workshop portal via handheld devices. 
+
+### Interface Highlights:
+* **Responsive Navigation:** Implemented a collapsible menu system to maximize screen real estate on smaller devices.
+* **Optimized Forms:** Increased input field sizes and utilized vertical layouts for the login and registration pages to improve ease of use on touchscreens.
+* **Visual Hierarchy:** Redesigned workshop listings as mobile-responsive cards that stack vertically, ensuring clarity and prioritizing the most critical information (date, title, and booking status).
+
+### 📂 Mobile Screenshots
+For a detailed look at the interface across various mobile viewports, please refer to the screenshots folder:
+👉 **[Browse Mobile Screenshots Folder](./screenshots/mobile_images)**
+
 ## Design Reasoning
 
 ### What design principles guided your improvements?
