@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# FOSSEE Workshop Booking — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A mobile-first React application for booking free Python and open-source 
+software workshops conducted by IIT Bombay experts.
 
-## Available Scripts
+## Live Pages
+- Home, Login, Register, Book a Workshop, My Workshops
 
-In the project directory, you can run:
+## Tech Stack
+- React (JavaScript)
+- Tailwind CSS
+- React Router DOM
 
-### `npm start`
+## Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm start`
+4. Open `http://localhost:3000`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Design Reasoning
 
-### `npm test`
+### What design principles guided your improvements?
+- **Mobile-first layout**: All components were designed for small screens 
+  first, then scaled up for desktop using Tailwind's responsive prefixes 
+  (sm:, md:, lg:).
+- **Visual hierarchy**: Clear heading sizes, consistent color usage 
+  (FOSSEE blue #1a3fc4, yellow #f5a623), and adequate whitespace guide 
+  the user's eye naturally.
+- **Accessibility**: All form inputs have labels, buttons have sufficient 
+  contrast, and tap targets are at least 44px tall for mobile usability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How did you ensure responsiveness?
+- Used Tailwind CSS flex and grid utilities with responsive breakpoints.
+- Navigation collapses to a hamburger menu on small screens.
+- Forms stack vertically on mobile and go side-by-side on desktop.
+- Cards in WorkshopList use full width on mobile.
 
-### `npm run build`
+### What trade-offs did you make?
+- Chose Tailwind utility classes over a component library (like MUI) to 
+  keep the bundle size small and load times fast on mobile networks.
+- Kept animations minimal to reduce jank on lower-end devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Most challenging part?
+- Redesigning the navigation for mobile without losing the desktop 
+  experience. Solved by implementing a responsive hamburger menu that 
+  toggles visibility using React useState.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Before & After Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Before (Original Django Template)
+- Plain unstyled login form
+- No mobile responsiveness
+- Minimal visual hierarchy
 
-### `npm run eject`
+### After (Redesigned React Frontend)
+- Mobile-first card-based layout
+- FOSSEE brand colors throughout
+- Clear CTAs and status indicators
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Submitted to: pythonsupport@fossee.in
